@@ -29,7 +29,7 @@ function clickHandler(e) {
             behavior: 'smooth'
         });
 ```
-visit [How to scroll an element into view with vanilla JS ](https://gomakethings.com/how-to-scroll-an-element-into-view-with-vanilla-js/)
+visit [How to scroll an element into view with vanilla JS ](https://gomakethings.com/how-to-scroll-an-element-into-view-with-vanilla-js/)    
 scrollIntoViewOptions不兼容ios Safari
 ## 3. jquery
 ```
