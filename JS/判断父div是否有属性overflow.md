@@ -1,3 +1,4 @@
+# 判断父div是否有属性
 ``` 判断父div是否有属性
 	let parent = document.querySelector('#about').parentElement;
 		
@@ -10,10 +11,3 @@
 	}	
 ```
 
-# 判断父div是否有属性
-(```)
-    function fun(){
-         echo "这是一句非常牛逼的代码";
-    }
-    fun();
-(```)
