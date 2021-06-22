@@ -1,3 +1,5 @@
+# 判断元素是否完全进入视口
+```
 var isInViewport = function (elem) {
 	var distance = elem.getBoundingClientRect();
 	return (
@@ -17,3 +19,5 @@ window.addEventListener('scroll', function (event) {
     console.log('Nope...');
   }
 }, false);
+```
+链接[vanlilla javascript](https://vanillajstoolkit.com/helpers/isinviewport/)
