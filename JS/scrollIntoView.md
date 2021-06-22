@@ -1,5 +1,5 @@
-# 点击a标签后跳转
-## 1.  js scroll()
+# 点击a标签后平滑滚动至锚点
+## 1.  js scroll() 
 ```
 const links = document.querySelectorAll(".fusion-mobile-nav-holder .fusion-bottombar-highlight");
 
@@ -22,12 +22,14 @@ function clickHandler(e) {
     });
 }
 ```
+似乎在ios Safari上无法平滑滚动
 ## 2. js scrollIntoView()
 ```
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
 ```
+scrollIntoViewOptions不兼容ios Safari
 ## 3. jquery
 ```
 $(document).on('click', 'a[href^="#"]', function (event) {
