@@ -29,6 +29,7 @@ function clickHandler(e) {
             behavior: 'smooth'
         });
 ```
+visit [How to scroll an element into view with vanilla JS ](https://gomakethings.com/how-to-scroll-an-element-into-view-with-vanilla-js/)
 scrollIntoViewOptions不兼容ios Safari
 ## 3. jquery
 ```
@@ -39,3 +40,4 @@ $(document).on('click', 'a[href^="#"]', function (event) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 ```
+
