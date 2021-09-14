@@ -15,3 +15,8 @@
  
 # md
 
+# MySql
+* [创建](https://github.com/Inna233/test/blob/main/MySQL/%E5%88%9B%E5%BB%BA.md)
+* [查询](https://github.com/Inna233/test/blob/main/MySQL/%E6%9F%A5%E8%AF%A2.md)
+
+
